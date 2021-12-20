@@ -9,7 +9,16 @@
     color:white;
     font-size: 1.75em;
 }
-
+.shareResult{
+    background-color: rgba(0,0,0,0.9);
+    border:1px solid white;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size: 1.75em;
+}
 .result-img{
     border-radius: 15px;
 }
@@ -18,11 +27,21 @@
     font-size: 1.5em;
 }
 
-.musinsa{
+.kakao{
+    background: #3A1D1D;
+    color:#F7E600;
+    transition: .2s;
+}
+.kakao:hover, .kakao:focus{
+    background: #F7E600;
+    color:#3A1D1D;
+}
+
+.gohome{
     background: #131416;
     transition: .2s;
 }
-.musinsa:hover, .musinsa:focus{
+.gohome:hover, .gohome:focus{
     background: rgb(245, 245, 245);
     color:#131416;
 }
