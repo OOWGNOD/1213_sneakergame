@@ -1,4 +1,4 @@
-const url = 'https://oowgnod.github.io';
+const url = 'https://oowgnod.github.io/';
 
 function setShare(){
     let resultImg = document.querySelector('.result-img');
