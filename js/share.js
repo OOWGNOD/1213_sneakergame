@@ -1,4 +1,4 @@
-const url = 'https://oowgnod.github.io';
+const url = 'https://oowgnod.github.io/';
 
 function setShare(){
     let resultImg = document.querySelector('.result-img');
@@ -6,7 +6,7 @@ function setShare(){
     const shareTitle = '스니커즈 게임 결과';
     const shareDes = infoList[resultAlt].name;
     const shareImg = url + 'img/image-' + resultAlt + '.jpg';
-    const shareURL = url + 'page/result-' + resultAlt + '.html';
+    const shareURL = url + 'pages/result-' + resultAlt + '.html';
 
         Kakao.Link.sendDefault({
                 objectType: 'feed',
