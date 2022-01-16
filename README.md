@@ -4,7 +4,7 @@ java연습용 스니커게임
 
 ---
 
-작업기간: 1213 - 1220 ( 2022-01 내용 추가)
+작업기간: 1213 - 1220 ( 2022-01 내용 추가) <br>
 사용언어: html, Javascript, CSS , THREE.js , bootstrap , kakaoapi
 
 ---
