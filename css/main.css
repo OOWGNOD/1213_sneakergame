@@ -13,3 +13,6 @@
     border-radius: 15px;
     border:1px solid white;
 }
+#webgl-container{
+    min-height: 400px;
+}
