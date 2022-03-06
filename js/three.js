@@ -59,7 +59,7 @@ class App {
                 obj3d.scale.set(scale, scale, scale);
         
                 this._scene.add(obj3d);
-                obj3d.name = "sneaker";
+                obj3d.name = "sneakers";
                 // gltfLoader.traverse(child => {
                 //     child.castShadow = true;
                 //     child.receiveShadow = true;
@@ -84,18 +84,18 @@ class App {
         };
         this._raycaster.setFromCamera(xy, this._camera);
 
-        const cars = [];
+        const sneakers = [];
         this._scene.traverse(obj3d => {
-            if(obj3d.name === "car") {
-                cars.push(obj3d);
+            if(obj3d.name === "sneaker") {
+                sneakers.push(obj3d);
             }
         });
         
-        for(let i=0; i<cars.length; i++) {
-            const car = cars[i];
-            const targets = this._raycaster.intersectObject(car);
+        for(let i=0; i<sneakers.length; i++) {
+            const sneaker = sneakers[i];
+            const targets = this._raycaster.intersectObject(sneaker);
             if(targets.length > 0) {
-                this._zoomFit(car, 70);
+                this._zoomFit(sneaker, 70);
                 this._controls.enabled = true;
                 return;
             }
