@@ -3,7 +3,7 @@ const qna: HTMLElement = document.querySelector("section.qna")!;
 const result: HTMLElement = document.querySelector('section.result')!;
 
 const endPoint: number = 6;
-const select: number[] = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+const select: number[] = new Array(infoList.length).fill(0);
 
 function calResult(): number {
     let result: number = select.indexOf(Math.max(...select));
